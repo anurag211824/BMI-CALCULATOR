@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton+SC&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <div class="container">
+    <h1>BMI Calculator</h1>
+    <br>
+  <form>
+  <div> <label for="height">Height in Cm:</label>
+    <input type="text" id="height" autocomplete="off">
+  </div>
+   <div>
+    <label for="weight">Weight in Kg:</label>
+    <input type="text" id="weight" autocomplete="off">
+   </div>
+   <div>
+    <label for="bmi">BMI:</label>
+    <br>
+    <input type="text" id="bmi" placeholder="Click calculate" autocomplete="off">
+   </div>
+   <button type="button" onclick='bmiCalculator()'>Calculate</button>
+    <div class="UnderWeight">
+
+    </div>
+    <div class="NormalRange">
+
+    </div>
+    <div class="Overweight">
+      
+    </div>
+
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
